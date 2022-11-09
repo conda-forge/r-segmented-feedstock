@@ -27,9 +27,11 @@ requirements:
   host:
     - r-base
     - r-mass
+    - r-nlme
   run:
     - r-base
     - r-mass
+    - r-nlme
 
 test:
   commands:

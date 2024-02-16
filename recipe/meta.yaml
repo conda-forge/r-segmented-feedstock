@@ -1,4 +1,4 @@
-{% set version = "2.0-2" %}
+{% set version = "2.0-3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/segmented_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/segmented/segmented_{{ version }}.tar.gz
-  sha256: 9858b0512343ed7372b5e062c3ba8954df98a60973b0d358d01bcf67bff8a57a
+  sha256: e7a88ae270ecb853067fbe26e21477dd369b47cefc443c3af486f2bebed909b9
 
 build:
   merge_build_host: true  # [win]

@@ -1,4 +1,4 @@
-{% set version = "2.1-0" %}
+{% set version = "2.1-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/segmented_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/segmented/segmented_{{ version }}.tar.gz
-  sha256: 6d7ba0248cb5aa23dfdfc3fc53b6aab2f564323c671420fc73c5274e03640cf2
+  sha256: 6723b0114b1142a7587f712d7a58ce0bebfb53864b84fa1e5d9d7824b17903dd
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

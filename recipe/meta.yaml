@@ -1,4 +1,4 @@
-{% set version = "2.2-1" %}
+{% set version = "2.2-2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/segmented_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/segmented/segmented_{{ version }}.tar.gz
-  sha256: ea9fca454739a8940350cf0c1ccea9545e8e1634d022b893c6acf57065d3c97e
+  sha256: 1bdb541b98786267323bf9bd9f72caa2bb0d41553f47ae9044a8ada9cd3f02fd
 
 build:
   number: 0
